@@ -89,9 +89,11 @@ Case
 | if | any | true* |
 | default | boolean | true* |
 
-* Case require either an if prop OR a default prop, not both
+* Case requires either an if prop OR a default prop, not both
 
+## Roadmap
 
+This is a pretty plain library at the moment, but I intend to expand it as I come up with more ideas.
 
 ## License
 
