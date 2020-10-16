@@ -1,10 +1,18 @@
 import React from 'react'
 
-import { ExampleComponent } from 'react-condish'
+import { Case, Switch } from 'react-condish'
 import 'react-condish/dist/index.css'
 
 const App = () => {
-  return <ExampleComponent text="Create React Library Example 😄" />
+  return (
+    <div>
+      <Switch on={4}>
+        <Case if={4}>
+          Hello
+        </Case>
+      </Switch>
+    </div>
+  )
 }
 
 export default App
